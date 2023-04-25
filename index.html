@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="src/css/style.css">
+
+        <title>formulario</title>
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <img class="logo" src="src/img/logo_branca (2).png" alt="logotipo">
+        </header>
+
+        <div class="banner"></div>
+
+        <main class="principal">
+            <h2 class="titulo">Cadastro de endereço</h2>
+
+            <form class="formulario" id="formulario" target="_blank" onsubmit="location.replace('./formulario_finalizado.html')">
+                <h3 class="titulo-form">endereço</h3>
+
+                <div class="box campo-cep">
+                    <label for="cep" class="etiqueta cep-etiqueta">CEP</label>
+                    <input name="cep" id="cep" class="campo cep" required />
+                </div>
+
+                <div class="campo-rua">
+                    <label for="rua" class="etiqueta margin-etiqueta rua-etiqueta">Rua</label>
+                    <input name="rua" id="rua" class="campo rua" required />
+                </div>
+
+                <div class="campo-numero">
+                    <label for="numero" class="etiqueta margin-etiqueta numero-etiqueta">Número</label>
+                    <input type="number" name="numero" id="numero" class="campo numero" required />
+                </div>
+
+                <fieldset class="campo-formulario">
+                    <div class="box campo-complemento">
+                        <label for="complemento" class="etiqueta complemento-etiqueta">Complemento</label>
+                        <textarea name="complemento" id="complemento" class="campo complemento" cols="50" rows="9"></textarea>
+                    </div>
+
+                    <article class="campo-formulario2">
+                        <div class="box campo-bairro">
+                            <label for="bairro" class="etiqueta bairro-etiqueta">Bairro</label>
+                            <input name="bairro" id="bairro" class="campo largura_bcuf bairro" required />
+                        </div>
+        
+                        <div class="box campo-cidade">
+                            <label for="cidade" class="etiqueta cidade-etiqueta">Cidade</label>
+                            <input name="cidade" id="cidade" class="campo largura_bcuf cidade" required />
+                        </div>
+        
+                        <div class="box campo-uf">
+                            <label for="uf" class="etiqueta uf-etiqueta">UF</label>
+                            <select name="uf" id="uf" class="campo largura_bcuf uf">
+                                <option value="AC">Acre</option>
+                                <option value="AL">Alagoas</option>
+                                <option value="AP">Amapá</option>
+                                <option value="AM">Amazonas</option>
+                                <option value="BA">Bahia</option>
+                                <option value="CE">Ceará</option>
+                                <option value="DF">Distrito Federal</option>
+                                <option value="ES">Espírito Santo</option>
+                                <option value="GO">Goiás</option>
+                                <option value="MA">Maranhão</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso do Sul</option>
+                                <option value="MG">Minas Gerais</option>
+                                <option value="PA">Pará</option>
+                                <option value="PB">Paraíba</option>
+                                <option value="PR">Paraná</option>
+                                <option value="PE">Pernambuco</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="SP">São Paulo</option>
+                                <option value="SE">Sergipe</option>
+                                <option value="TO">Tocantins</option>
+                                <option value="EX">Estrangeiro</option>
+                            </select>
+                        </div>
+                    </article>
+                </fieldset>
+
+                <input type="submit" id="enviar" class="enviar">
+            </form>
+        </main>
+
+        <footer class="rodaPe">
+            <section class="caixa-icon">
+                <div class="icon">
+                    <a href="https://github.com/matheusandraderibeiro"><img class="figura-icon" src="src/img/github-logo.png" alt="logo-github"></a>
+                </div>
+
+                <div class="icon">
+                    <a href="https://www.instagram.com/linckfall/?next=%2F"><img class="figura-icon"  src="src/img/instagram.png" alt="logo-instagran"></a>
+                </div>
+
+                <div class="icon">
+                    <a href="https://www.linkedin.com/feed/?trk=nav_logo"><img class="figura-icon" src="src/img/linkedin.png" alt="logo-linkedin" ></a>
+                </div>
+            </section>    
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.cabecalho {
+    padding: 5px;
+    border-bottom: 1px solid white;
+    background: #00342d;
+}
+
+.logo {
+    width: 60px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    z-index: -1;
+    opacity: 0.5;
+    width: 100vw;
+    height:100vh;
+    background-image: url(../img/cenario-rua.jpg);
+}
+
+.principal {
+    margin: 6px 279px;
+    padding: 5px 8px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+    border-bottom: 2px solid #00342d;
+    color: #00342d;
+    text-shadow: 1px 1px white, -1px 1px white, 1px -1px white, -1px -1px white;
+}
+
+.titulo-form {
+    font-size: 40px;
+    margin-bottom: 8px;
+    color: #00594f;
+    text-shadow: 1px 1px white, -1px 1px white, 1px -1px white, -1px -1px white;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.etiqueta {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00594f;
+    text-shadow: 1px 1px white, -1px 1px white, 1px -1px white, -1px -1px white;
+}
+
+.margin-etiqueta {
+    margin-right: 3px;        
+}
+
+.campo {
+    font-size: 14.5px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 25px;
+    border: 2px solid #008074;
+}
+
+.largura_bcuf {
+    width: 370px;
+}
+
+.campo-cep {
+    margin-bottom: 10px;
+}
+
+.campo-rua {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.rua {
+    width:  460px;
+}
+
+.campo-numero {
+    display: inline-block;
+    margin:0 0 10px 20px;    
+}
+
+.campo-formulario {
+    display: flex;
+    border: none;
+}
+
+.campo-formulario2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 16px;
+}
+
+.complemento {
+    padding: 16px;
+    resize: none;
+}
+
+.enviar {
+    font-size: 15px;
+    width: 130px;
+    height: 40px;
+    padding: 3px;
+    margin-top: 8px;
+    transition: 0.5s;
+    border-radius: 25px;
+    color: white;
+    border: 2px solid white;
+    background-color: #008074;
+}
+
+.enviar:hover {
+    font-weight: bold;
+    transform: scale(1.05);
+    color: #008074;
+    border: 2px solid #008074;
+    background-color: white;
+}
+
+.rodaPe {
+    padding: 8px;
+    background: #00342d;
+}
+
+.caixa-icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 8px;
+    padding: 8px;
+}
+
+.icon {
+    transition: 0.5s;
+}
+
+.icon:hover {
+    transform: scale(1.05);
+}
+
+.figura-icon {
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: white;
+}
+
