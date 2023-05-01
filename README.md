@@ -9,3 +9,4 @@ Para testar o site. [clique aqui.](https://cmp-formulario-api.netlify.app/)
 Bom, como foi dito anteriormente, este site tem como o objetivo a implementação do uso de api sendo utilizada a viacep.
 Sua principal função é, através do seu cep, retornar a sua localização. O código faz parte dos meus estudos de javascript
 e por mais que não seja grande, seu entendimento não é simples. 
+<img src="src/img/readme.jpg" />
