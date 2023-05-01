@@ -10,3 +10,11 @@ Bom, como foi dito anteriormente, este site tem como o objetivo a implementaçã
 Sua principal função é, através do seu cep, retornar a sua localização. O código faz parte dos meus estudos de javascript
 e por mais que não seja grande, seu entendimento não é simples. 
 <img src="src/img/readme.jpg" />
+
+## Executando localmente
+
+Para quem quiser rodar localmente, o site não demanda nada de mais, basta baixa-lo e executa-lo.
+
+```
+https://github.com/matheusandraderibeiro/cmp-formulario_api.git
+```
